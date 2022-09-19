@@ -14,7 +14,9 @@
   {/each}
 </ul> -->
 
-{#each data.posts.posts as { title, excerpt }}
-  <h2>{title}</h2>
+{#each data.posts.posts as { title, excerpt, slug }}
+  <a href="/posts/{slug}">
+    <h2>{title}</h2>
+  </a>
   <h3>{excerpt}</h3>
 {/each}

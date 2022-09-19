@@ -11,7 +11,7 @@ export async function load() {
     posts {
         title
         excerpt
-        
+        slug
       image {
         url
       }
