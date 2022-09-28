@@ -7,4 +7,7 @@
 invoice do I show up?
 
 <h1>{data.post.title}</h1>
-<p>{@html data.post.excerpt}</p>
+<p>{data.post.excerpt}</p>
+
+<!-- <p>{@html data.post.excerpt}</p>
+ this worked also but think it's for mixed html content field-->
