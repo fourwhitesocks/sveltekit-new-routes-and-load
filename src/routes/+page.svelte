@@ -3,9 +3,11 @@
   console.log(data);
 </script>
 
-<h1 class="text-3xl font-bold underline">Hello world!</h1>
+<h1 class="text-3xl font-bold underline">New SvelteKit basic sandbox :)</h1>
 
-<h2>My name is Pip, i'm a PITA</h2>
+<h2>
+  Below just pulling in names from a pulic json api: https://jsonplaceholder.typicode.com/users
+</h2>
 <br />
 <p>I'm {data.age} years old</p>
 
