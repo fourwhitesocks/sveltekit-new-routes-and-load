@@ -6,6 +6,8 @@ export async function load() {
 
   //const users = await response.json();
   //console.log(users)
+
+
   const posts = await postquery(`
 
     posts {
