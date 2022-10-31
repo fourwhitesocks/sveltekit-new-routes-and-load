@@ -3,9 +3,15 @@
   //this is showing  users destructured so you don't have to go data.users in the each block this from:  https://www.youtube.com/watch?v=EQy-AYhZIlE&ab_channel=Huntabyte 4:29 in!!
   const { users } = data;
   console.log(data);
+  import { formatMe } from '$lib/components/utils/FormatText';
+  import Hero from '$lib/components/Hero.svelte';
 </script>
 
-<h1 class="text-3xl font-bold underline">New SvelteKit basic sandbox :)</h1>
+<br />
+<br />
+{formatMe('Amy')}
+<br />
+<Hero />
 <br />
 <h2>
   Below just pulling in names from a pulic json api: https://jsonplaceholder.typicode.com/users
@@ -24,3 +30,5 @@
     <br />
   {/each}
 </ul>
+
+<h1 class="text-3xl font-bold underline">New SvelteKit basic sandbox :)</h1>
