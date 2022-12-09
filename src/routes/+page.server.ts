@@ -18,6 +18,9 @@ export async function load({ data }) {
 
 }
 
+
+
+
 //from loading data in sveltekit video 3:51 mins in
 /*export const load = async ({ fetch }) => {
     return {

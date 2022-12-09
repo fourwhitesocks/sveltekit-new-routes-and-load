@@ -21,7 +21,6 @@
 <br />
 <br />
 <br />
-
 <ul>
   {#each users as user}
     <li>{user.name}</li>
