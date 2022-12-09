@@ -7,7 +7,7 @@
   <a href="/">Home</a>
   <a href="/posts" data-sveltekit-prefetch>Posts</a>
   <a href="/products" data-sveltekit-prefetch>Products</a>
-  <a href="/photos" data-sveltekit-prefetch>Images</a>
+  <a href="/photos" data-sveltekit-prefetch>Photos</a>
 </nav>
 
 <slot />
